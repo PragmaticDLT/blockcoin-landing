@@ -19,7 +19,7 @@ export default defineConfig({
     }
   },
   shortcuts: {
-    header: 'fixed top-0 left-0 right-0 flex px-4 z-100',
+    header: 'fixed top-0 left-0 right-0 flex px-[40px] z-100',
     'header-button': 'font-bold border border-primary rounded-md uppercase',
     'bg-normal': 'bg-center bg-no-repeat bg-cover',
     'flex-center': 'items-center justify-center',

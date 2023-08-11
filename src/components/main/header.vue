@@ -1,41 +1,34 @@
 <template>
   <header
-    class="header py-10 duration-300"
+    class="header h-[86px] duration-300"
     :class="{ 'bg-black/50 backdrop-filter backdrop-blur-md': y }"
   >
     <div
-      class="container flex items-center text-white mx-auto <lg:pr-11"
+      class="flex items-center lg:justify-start justify-between w-full text-white mx-auto"
       :class="{ 'text-neutral-600': y }"
     >
+      <a href="/">
+        <img
+          class="lg:mr-[64px] mr-auto"
+          src="/images/logo.svg"
+          alt="logo"
+        >
+      </a>
+
       <button
-        class="lg:hidden w-11 h-11 text-primary mr-auto z-120"
+        class="lg:hidden w-11 h-11 text-primary z-120"
         @click="toggleMenu"
       >
         <i class="text-2xl mdi mdi-menu" />
       </button>
-
-      <img
-        class="mr-auto"
-        src="/images/logo-full.png"
-        width="191"
-        height="38"
-        alt="logo"
-      >
-
-      <div class="<lg:hidden flex items-center text-primary uppercase">
+      <div class="<lg:hidden flex items-center text-primary">
         <a
           v-for="link in headerLinks"
           :key="link.title"
           :href="link.href"
-          class="font-bold mr-6 xl:mr-12"
+          class="font-light mr-[46px]"
         >
           {{ link.title }}
-        </a>
-        <a
-          class="header-button px-5 py-3"
-          href="/mint"
-        >
-          Mint now
         </a>
       </div>
     </div>
@@ -44,7 +37,7 @@
   <transition>
     <div
       v-if="showMenu"
-      class="lg:hidden flex flex-center flex-col fixed top-0 left-0 right-0 bottom-0 bg-black/80 text-primary font-bold z-110"
+      class="lg:hidden flex flex-center flex-col fixed top-0 left-0 right-0 bottom-0 bg-black/80 text-primary font-light z-110"
       @click="toggleMenu"
     >
       <a
@@ -54,12 +47,6 @@
         class="mb-10"
       >
         {{ link.title }}
-      </a>
-      <a
-        class="header-button px-5 py-3"
-        href="/mint"
-      >
-        Mint now
       </a>
     </div>
   </transition>

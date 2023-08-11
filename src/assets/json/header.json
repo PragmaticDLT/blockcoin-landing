@@ -1,13 +1,5 @@
 [
   {
-    "title": "Home",
-    "href": "/"
-  },
-  {
-    "title": "The Vault",
-    "href": "/#vault"
-  },
-  {
     "title": "Roadmap",
     "href": "/#roadmap"
   },
@@ -16,9 +8,11 @@
     "href": "/about"
   },
   {
-    "title": "FAQ"
+    "title": "Mint",
+    "href": "https://marketplace.myblockcoin.io/mint"
   },
   {
-    "title": "Market Place"
+    "title": "Marketplace",
+    "href": "https://marketplace.myblockcoin.io/marketplace"
   }
 ]
