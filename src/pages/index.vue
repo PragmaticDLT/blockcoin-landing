@@ -3,8 +3,6 @@
     <section-hero />
     <section-welcome />
     <section-features />
-    <section-vault id="vault" />
-    <section-vault-features />
     <section-legacy />
     <section-roadmap id="roadmap" />
     <section-partners />
