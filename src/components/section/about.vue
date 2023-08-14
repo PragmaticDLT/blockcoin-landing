@@ -39,10 +39,10 @@
           :alt="member.name"
         >
         <div class="flex-grow">
-          <div class="font-bold text-xl">
+          <div class="font-bold text-xl text-center">
             {{ member.name }}
           </div>
-          <div class="font-bold">
+          <div class="font-bold text-center">
             {{ member.roleLong }}
           </div>
           <p
