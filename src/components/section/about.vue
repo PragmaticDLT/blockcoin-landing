@@ -23,7 +23,7 @@
       <div
         v-for="(member, mIdx) in team"
         :key="member.name"
-        class="flex flex-col items-center <md:items-center mt-10 md:mt-20"
+        class="flex flex-col items-start <md:items-center mt-10 md:mt-20"
         :class="{
           'md:flex-row': mIdx % 2 === 0,
           'md:flex-row-reverse': mIdx % 2 === 1

@@ -4,16 +4,13 @@
       <div class="text-primary text-2xl sm:text-4xl text-center">
         The BlockCoin Team
       </div>
-      <swiper
-        class="mt-16"
-        :slides-per-view="slideCount"
-        centered-slides
-        :initial-slide="1"
+      <div
+        class="mt-16 flex items-center justify-center md:flex-row flex-col gap-6"
       >
-        <swiper-slide
+        <div
           v-for="member in team"
           :key="member.name"
-          class="h-full px-3"
+          class="h-full"
         >
           <div class="bg-[#0D0B0BB0] border border-primary rounded-lg text-center px-3 py-6">
             <img
@@ -38,8 +35,8 @@
               </p>
             </div>
           </div>
-        </swiper-slide>
-      </swiper>
+        </div>
+      </div>
     </div>
   </section>
 </template>
