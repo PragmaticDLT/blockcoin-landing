@@ -7,7 +7,8 @@
     "build": " vite-ssg build",
     "preview": "vite preview",
     "lint": "eslint src --ext js,ts,vue src",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start:prod": "serve -s dist"
   },
   "dependencies": {
     "@mdi/font": "^6.7.96",
