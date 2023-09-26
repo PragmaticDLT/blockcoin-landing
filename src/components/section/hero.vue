@@ -19,7 +19,7 @@
         </div>
         <a
           class="button-full mt-10 <lg:mx-auto"
-          href="/mint"
+          href="https://marketplace.myblockcoin.io/mint"
         >
           Mint Now
         </a>

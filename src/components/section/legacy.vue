@@ -36,7 +36,7 @@
         <template #container-end>
           <a
             class="button-full mt-10 mx-auto"
-            href="/mint"
+            href="https://marketplace.myblockcoin.io/mint"
           >
             Mint Now
           </a>
